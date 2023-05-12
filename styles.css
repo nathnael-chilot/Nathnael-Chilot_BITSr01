@@ -1,0 +1,290 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  margin: -7px;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+nav .logo {
+  font-size: 24px;
+  color: white;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.redportofolio {
+  color: rgb(255, 0, 0);
+}
+
+.whiteportofolio {
+  color: #fff;
+}
+
+/* home*/
+
+.homePage {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.homePage h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.homePage p {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* skills*/
+
+.skillsheading {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  overflow-x: scroll; /* Add horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Add smooth scrolling on iOS */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px; /* Add some margin between the cards */
+  flex: 0 0 auto; /* Prevent the cards from shrinking */
+  max-width: 300px; /* Set a maximum width for the cards */
+}
+
+.card img {
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove the margin from the last card */
+}
+
+/*about*/
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+
+.aboutheading {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personal-info {
+  flex: 1;
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.school-life {
+  flex: 1;
+  margin-top: 30px;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+dd {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.school-life {
+  flex: 1;
+  max-width: 500px;
+  height: 300px;
+  background-image: url("path/to/image.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/*contact*/
+
+.contact-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  line-height: 3;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #666;
+}
+
+.social-links a:hover {
+  color: #333;
+}
+
+.fa .fa-solid {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+/*button*/
+
+.btn {
+  background: #fff;
+  background-image: -webkit-linear-gradient(top, #fff, #91afc2);
+  background-image: -moz-linear-gradient(top, #fff, #91afc2);
+  background-image: -ms-linear-gradient(top, #fff, #91afc2);
+  background-image: -o-linear-gradient(top, #fff, #91afc2);
+  background-image: linear-gradient(to bottom, #fff, #91afc2);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
