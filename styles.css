@@ -87,6 +87,46 @@ nav .logo {
   text-align: center;
 }
 
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  .homePage {
+    height: auto;
+  }
+
+  .homePage img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .homePage h1 {
+    font-size: 24px;
+  }
+
+  .homePage p {
+    font-size: 16px;
+  }
+}
+
+/* For screens 768px and larger */
+@media (min-width: 768px) {
+  .homePage {
+    height: 100vh;
+  }
+
+  .homePage img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .homePage h1 {
+    font-size: 36px;
+  }
+
+  .homePage p {
+    font-size: 18px;
+  }
+}
+
 /* skills*/
 
 .skillsheading {
@@ -203,6 +243,35 @@ dd {
   background-size: cover;
   background-position: center;
   border-radius: 10px;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  #about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .aboutme {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personal-info {
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .school-life {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  dl {
+    text-align: center;
+  }
 }
 
 /*contact*/
